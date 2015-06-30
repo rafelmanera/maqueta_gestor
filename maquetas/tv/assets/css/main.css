@@ -1,0 +1,441 @@
+.navbar.navbar-default {
+  background: #fe0000;
+}
+.navbar.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+  border-radius: 0;
+}
+.navbar.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar.navbar-default a.notifications {
+  width: 30px;
+  height: 23px;
+  padding: 1px 7px 0px;
+  font-size: 12px;
+  position: absolute;
+  top: 17px;
+  right: 55px;
+  background: url(../img/bubble.png) no-repeat;
+  background-size: 21px;
+  color: #fe0000;
+}
+.navbar.navbar-default a.notifications:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar.navbar-default a.back {
+  width: 30px;
+  height: 23px;
+  padding: 1px 7px 0px;
+  font-size: 12px;
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  background: url(../img/volver.png) no-repeat;
+  background-size: 21px;
+  color: #fe0000;
+}
+.navbar.navbar-default a.back:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar.navbar-default .btns {
+  height: 30px;
+  width: 50%;
+  position: absolute;
+  top: 15px;
+  margin: 0 auto;
+  left: 56px;
+}
+.navbar.navbar-default .btns .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
+.navbar.navbar-default .btns .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.navbar.navbar-default .btns .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.navbar.navbar-default .btns .btn-default {
+  border-color: #fe0000;
+  color: #fe0000;
+}
+.navbar.navbar-default .btns .btn-default.active,
+.navbar.navbar-default .btns .btn-default:active,
+.navbar.navbar-default .btns .open > .dropdown-toggle.btn-default {
+  color: #ffffff;
+  background-color: #fe0000;
+  border-color: #ffffff;
+}
+.navbar.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.navbar.navbar-default .navbar-nav .salir .fa-power-off {
+  color: #fe0000;
+}
+.navbar.navbar-default .navbar-brand {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: 160px;
+}
+.navbar.navbar-default .navbar-brand img {
+  width: 100%;
+  margin-top: -5px;
+}
+.navbar.navbar-default .navbar-brand.tv {
+  right: 0;
+  position: absolute;
+  width: 160px;
+  float: none;
+  left: 0;
+  margin-right: 10px;
+  top: -1px;
+  background-color: #fe0000;
+}
+.navbar.navbar-default .navbar-brand.tv img {
+  width: 100%;
+  margin-top: -5px;
+}
+.nav-sidebar {
+  width: 100%;
+  padding: 30px 0;
+  margin-top: 50%;
+}
+.nav-sidebar a {
+  color: #564c4c;
+  -webkit-transition: all 0.08s linear;
+  -moz-transition: all 0.08s linear;
+  -o-transition: all 0.08s linear;
+  transition: all 0.08s linear;
+}
+.nav-sidebar .active a {
+  cursor: default;
+  background-color: #fe0000;
+  color: #fff;
+}
+.nav-sidebar .active a:hover {
+  background-color: #fe0000;
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.btn-group.menu {
+  position: absolute;
+  right: 100px;
+  top: 60px;
+}
+/* mouse indications */
+.mouse-1 {
+  width: 30px;
+  position: absolute;
+  top: 240px;
+  z-index: 99;
+  right: 85px;
+}
+.mouse-1 img {
+  width: 100%;
+}
+.mouse-2 {
+  width: 30px;
+  position: absolute;
+  top: 75%;
+  z-index: 99;
+  right: 60px;
+}
+.mouse-2 img {
+  width: 100%;
+}
+.mouse-3 {
+  width: 30px;
+  position: absolute;
+  top: 80%;
+  z-index: 99;
+  left: 60px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.mouse-3 img {
+  width: 100%;
+}
+.mouse-4 {
+  width: 30px;
+  position: absolute;
+  top: 40%;
+  z-index: 99;
+  left: 60px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.mouse-4 img {
+  width: 100%;
+}
+.mouse-5 {
+  width: 30px;
+  position: absolute;
+  top: 30%;
+  z-index: 99;
+  right: 90px;
+}
+.mouse-5 img {
+  width: 100%;
+}
+.mouse-6 {
+  width: 30px;
+  position: absolute;
+  top: 25%;
+  z-index: 99;
+  right: 90px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+.mouse-6 img {
+  width: 100%;
+}
+.mouse-7 {
+  width: 30px;
+  position: absolute;
+  bottom: 9%;
+  z-index: 99;
+  left: 90px;
+}
+.mouse-7 img {
+  width: 100%;
+}
+.mouse-8 {
+  width: 30px;
+  position: absolute;
+  bottom: 12%;
+  z-index: 99;
+  right: 65px;
+}
+.mouse-8 img {
+  width: 100%;
+}
+.mouse-9 {
+  width: 30px;
+  position: absolute;
+  top: 55%;
+  z-index: 99;
+  right: 65px;
+}
+.mouse-9 img {
+  width: 100%;
+}
+.mouse-10 {
+  width: 30px;
+  position: absolute;
+  top: 27%;
+  z-index: 99;
+  right: 25px;
+}
+.mouse-10 img {
+  width: 100%;
+}
+.mouse-11 {
+  width: 30px;
+  position: absolute;
+  top: 48%;
+  z-index: 99;
+  right: 65px;
+}
+.mouse-11 img {
+  width: 100%;
+}
+.mouse-12 {
+  width: 30px;
+  position: absolute;
+  top: 58%;
+  z-index: 99;
+  right: 108px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+.mouse-12 img {
+  width: 100%;
+}
+.transition {
+  -webkit-transition: all 0s ease 0s;
+  -moz-transition: all 0s ease 0s;
+  -o-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* skin */
+.simulator3 {
+  background-image: url(../img/tv.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 820px;
+  position: relative;
+  background-size: 100%;
+  top: 80px;
+  margin-left: 10%;
+}
+.column-width-ver {
+  width: 960px;
+  margin-top: 1em;
+}
+.bounds {
+  margin: 0 auto;
+}
+.simulator3 .mobilesite {
+  position: absolute;
+  top: 114px;
+  left: 41px;
+  height: 474px;
+  z-index: 5;
+  visibility: hidden;
+}
+.mobilesite {
+  position: absolute;
+  top: 128px;
+  left: 105px;
+  z-index: 5;
+  visibility: hidden;
+  width: 320px;
+}
+.relative {
+  position: relative;
+}
+.mobilesite,
+.mobilesite-hor {
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+.mobilesite {
+  height: auto;
+}
+.mobilesite.relative {
+  width: 844px;
+  top: 66px;
+  left: 58px;
+  background: #564c4c;
+}
+/* fin-skin */
+.tv {
+  background: #ffffff;
+}
+.tv .green-box {
+  width: 100%;
+  height: 30px;
+  background-color: green;
+  margin-top: 50px;
+}
+.tv .green-box h1 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 5px;
+  float: left;
+  margin-top: 1px;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
+.tv .video {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  width: 65%;
+  background-position: 50%;
+  height: 374px;
+  float: left;
+}
+.tv .video h1 {
+  color: #564c4c;
+  opacity: 0.5;
+  text-align: center;
+  padding-top: 4em;
+}
+.tv .data {
+  width: 35%;
+  height: 374px;
+  float: left;
+}
+.tv .data h1 {
+  color: #b1b1b1;
+  opacity: 0.5;
+  text-align: left;
+  line-height: 0.8;
+  padding-left: 10px;
+  font-weight: 200;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+.tv .data h1 span {
+  font-size: 15px;
+}
+.tv .data .ad {
+  bottom: 20px;
+  position: absolute;
+}
+.tv .data .table thead {
+  background: #fe0000;
+  color: #ffffff;
+}
+.tv .data .table tbody {
+  background: #f1f1f1;
+}
+.tv .data .table tbody td {
+  border: none;
+  color: #564c4c;
+}
+.visibility {
+  visibility: hidden;
+}
+.footer {
+  height: 30px;
+}
+.footer h1 {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-top: 4px;
+  line-height: 10px;
+  float: left;
+}
+.footer h1 span {
+  font-size: 10px;
+  font-weight: 200;
+}
+.footer span.feed {
+  height: 30px;
+  float: right;
+  margin-right: 30px;
+  line-height: 28px;
+}
+.footer span.feed img {
+  width: 20px;
+}
+body {
+  background: #564c4c;
+}
+body.base {
+  background: #ffffff;
+}

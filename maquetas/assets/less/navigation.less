@@ -1,0 +1,310 @@
+.navbar.navbar-default {
+  background:@red;
+  .navbar-toggle {
+    border-color: transparent;
+    .icon-bar {
+      background-color: @white;
+      border-radius:0;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+    &:focus {
+      background-color: transparent;
+    }
+  }
+  a.notifications {
+    width: 30px;
+    height: 23px;
+    padding: 1px 7px 0px;
+    font-size: 12px;
+    position: absolute;
+    top: 17px;
+    right: 55px;
+    background: url(../img/bubble.png) no-repeat;
+    background-size: 21px;
+    color: @red;
+
+    &:hover{
+      text-decoration:none;
+      cursor:pointer;
+    }
+  }
+  a.back {
+    width: 30px;
+    height: 23px;
+    padding: 1px 7px 0px;
+    font-size: 12px;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    background: url(../img/volver.png) no-repeat;
+    background-size: 21px;
+    color: @red;
+
+    &:hover{
+      text-decoration:none;
+      cursor:pointer;
+    }
+  }
+
+  .btns {
+    height: 30px;
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    margin: 0 auto;
+    left: 56px;
+
+    .btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child, .btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    .btn-default {
+      border-color:@red;
+      color: @red;
+    }
+
+    .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+      color: @white;
+      background-color: @red;
+      border-color: @white;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: @white;
+        text-transform:uppercase;
+      }
+    }
+    .salir {
+      .fa-power-off {
+        color: @red;
+      }
+    }
+  }
+  .navbar-brand {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 160px;
+
+    img {
+      width: 100%;
+      margin-top: -5px;
+    }
+  }
+}
+
+.nav-sidebar {
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 50%;
+}
+.nav-sidebar a {
+    color: @dark-gray;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a {
+    cursor: default;
+    background-color: @red;
+    color: #fff;
+}
+.nav-sidebar .active a:hover {
+    background-color: @red;
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+.btn-group.menu {
+  position: absolute;
+  right: 280px;
+  top: 120px;
+}
+
+
+
+/* mouse indications */
+
+.mouse-1 {
+  width: 30px;
+  position: absolute;
+  top: 240px;
+  z-index: 99;
+  right: 85px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-2 {
+  width: 30px;
+  position: absolute;
+  top: 75%;
+  z-index: 99;
+  right: 60px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-3 {
+  width: 30px;
+  position: absolute;
+  top: 80%;
+  z-index: 99;
+  left: 60px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-4 {
+  width: 30px;
+  position: absolute;
+  top: 40%;
+  z-index: 99;
+  left: 60px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-5 {
+  width: 30px;
+  position: absolute;
+  top: 30%;
+  z-index: 99;
+  right: 90px;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+.mouse-6 {
+  width: 30px;
+  position: absolute;
+  top: 25%;
+  z-index: 99;
+  right: 90px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-7 {
+  width: 30px;
+  position: absolute;
+  bottom: 30%;
+  z-index: 99;
+  left: 90px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-8 {
+  width: 30px;
+  position: absolute;
+  bottom: 12%;
+  z-index: 99;
+  right: 65px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-9 {
+  width: 30px;
+  position: absolute;
+  top: 55%;
+  z-index: 99;
+  right: 65px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-10 {
+  width: 30px;
+  position: absolute;
+  top: 27%;
+  z-index: 99;
+  right: 25px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-11 {
+  width: 30px;
+  position: absolute;
+  top: 48%;
+  z-index: 99;
+  right: 65px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mouse-12 {
+  width: 30px;
+  position: absolute;
+  top: 58%;
+  z-index: 99;
+  right: 108px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+
+  img {
+    width: 100%;
+  }
+}
