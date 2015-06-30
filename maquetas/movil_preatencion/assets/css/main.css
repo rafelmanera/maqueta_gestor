@@ -224,7 +224,7 @@
 .mouse-9 {
   width: 30px;
   position: absolute;
-  top: 55%;
+  top: 49%;
   z-index: 99;
   right: 65px;
 }
@@ -673,7 +673,7 @@
   margin-top: 7px;
 }
 .select-date {
-  min-height: 329px;
+  min-height: 328px;
   margin-top: -5px;
   background-color: #262626;
 }
