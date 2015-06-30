@@ -447,8 +447,9 @@
 }
 
 .select-date {
-  min-height: 329px;
+  min-height: 299px;
   margin-top: -5px;
+  padding-bottom: 49px;
   background-color: @black;
 
   .btn-santander {
@@ -561,27 +562,21 @@
   }
 
   .date-list {
+    background: url(../img/ios_rueda.png) no-repeat;
+    background-size: cover;
     width: 80%;
     margin: 0 auto;
     text-align: center;
     color: @white;
     margin-top: 40px;
     height: 132px;
-    overflow: hidden;
-    overflow-y: scroll;
     margin-bottom: 30px;
+    padding-top: 46px;
 
-    ul {
-      list-style: none;
-      height: 100%;
-      padding: 0px;
-
-      li {
-        border-top:1px solid @white;
-        border-bottom:1px solid @white;
-        height: 40px;
-        padding: 8px;
-      }
+    a {
+      color:@white;
+      font-size: 23px;
+      margin-left: 8px;
     }
   }
 }
@@ -931,6 +926,7 @@ section.search.has-bottom {
 .table-data {
   table {
     margin-bottom: 0px;
+    height: 328px;
     thead {
       background-color: @red;
       color: WHITE;

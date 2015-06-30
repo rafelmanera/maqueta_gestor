@@ -1,6 +1,24 @@
 .navbar.navbar-default {
   background: #fe0000;
 }
+.navbar.navbar-default .navbar-header h1 {
+  font-size: 22px;
+  width: 100%;
+  position: absolute;
+  margin-top: 12px;
+  color: white;
+  font-weight: 200;
+  left: 15px;
+}
+.navbar.navbar-default .navbar-header h1 {
+  font-size: 22px;
+  width: 100%;
+  position: absolute;
+  margin-top: 12px;
+  color: white;
+  font-weight: 200;
+  left: 15px;
+}
 .navbar.navbar-default .navbar-toggle {
   border-color: transparent;
 }
@@ -86,8 +104,6 @@
   color: #fe0000;
 }
 .navbar.navbar-default .navbar-brand {
-  margin: 0 auto;
-  left: 0;
   right: 0;
   position: absolute;
   width: 160px;
@@ -224,7 +240,7 @@
 .mouse-9 {
   width: 30px;
   position: absolute;
-  top: 49%;
+  top: 55%;
   z-index: 99;
   right: 65px;
 }
@@ -673,8 +689,9 @@
   margin-top: 7px;
 }
 .select-date {
-  min-height: 328px;
+  min-height: 299px;
   margin-top: -5px;
+  padding-bottom: 49px;
   background-color: #262626;
 }
 .select-date .btn-santander {
@@ -777,26 +794,21 @@
   background-position: 95%;
 }
 .select-date .date-list {
+  background: url(../img/ios_rueda.png) no-repeat;
+  background-size: cover;
   width: 80%;
   margin: 0 auto;
   text-align: center;
   color: #ffffff;
   margin-top: 40px;
   height: 132px;
-  overflow: hidden;
-  overflow-y: scroll;
   margin-bottom: 30px;
+  padding-top: 46px;
 }
-.select-date .date-list ul {
-  list-style: none;
-  height: 100%;
-  padding: 0px;
-}
-.select-date .date-list ul li {
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-  height: 40px;
-  padding: 8px;
+.select-date .date-list a {
+  color: #ffffff;
+  font-size: 23px;
+  margin-left: 8px;
 }
 section.map {
   height: 96%;
@@ -1108,6 +1120,7 @@ section.search.has-bottom .footer .geo-icon {
 }
 .table-data table {
   margin-bottom: 0px;
+  height: 328px;
 }
 .table-data table thead {
   background-color: #fe0000;
