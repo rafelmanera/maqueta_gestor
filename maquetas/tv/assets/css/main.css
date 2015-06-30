@@ -383,6 +383,7 @@
     opacity: 0.5;
     text-align: center;
     padding-top: 4em;
+    display: none;
   }
   .tv .data {
     width: 35%;
@@ -391,7 +392,6 @@
   }
   .tv .data h1 {
     color: #564c4c;
-    opacity: 0.5;
     text-align: left;
     line-height: 0.8;
     padding-left: 10px;
