@@ -287,153 +287,151 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-@media only screen and (min-device-width: 1200px) {
-  /* skin */
-  .simulator3 {
-    background-image: url(../img/chip.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 820px;
-    position: relative;
-    background-size: 100%;
-    top: 50px;
-  }
-  .column-width-ver {
-    width: 560px;
-  }
-  .bounds {
-    margin: 0 auto;
-  }
-  .simulator3 .mobilesite {
-    position: absolute;
-    top: 114px;
-    left: 41px;
-    height: 568px;
-    z-index: 5;
-    visibility: hidden;
-  }
-  .mobilesite {
-    position: absolute;
-    top: 128px;
-    left: 105px;
-    z-index: 5;
-    visibility: hidden;
-    width: 320px;
-  }
-  .relative {
-    position: relative;
-  }
-  .mobilesite,
-  .mobilesite-hor {
-    overflow-y: hidden !important;
-    -webkit-overflow-scrolling: touch;
-  }
-  .mobilesite {
-    height: auto;
-  }
-  .mobilesite.relative {
-    width: 341px;
-    top: 128px;
-    left: 105px;
-  }
-  /* fin-skin */
-  .chipandpin {
-    background: #564c4c;
-  }
-  .white-panel {
-    height: 60px;
-    text-align: center;
-    background: #ffffff;
-    margin-top: 50px;
-  }
-  .white-panel h1 {
-    color: #fe0000;
-    font-size: 18px;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .rate-service {
-    height: 60px;
-    text-align: center;
-    margin-top: -20px;
-  }
-  .rate-service h2 {
-    color: #ffffff;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 10px;
-  }
-  .rate-service input.score-input {
-    position: absolute;
-    top: -2em;
-    clip: rect(0, 0, 0, 0);
-  }
-  .rate-service .score {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    text-align: center;
-    border: 0;
-    font-size: 0;
-    padding-bottom: 15px;
-  }
-  .rate-service .score legend {
-    overflow: hidden;
-    height: 0;
-  }
-  .rate-service .score label {
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 32px;
-    line-height: 2rem;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    text-indent: 100%;
-  }
-  .rate-service .score label:before {
-    content: "☆";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-indent: 0;
-    line-height: 1em;
-    color: #aaa;
-    font-size: 40px;
-  }
-  .rate-service .score label:hover:before,
-  .rate-service .score label:hover ~ label:before,
-  .rate-service .score input:checked ~ label:before {
-    content: "★";
-    color: #ffbb04;
-  }
-  .rate-service .score label:active {
-    position: relative;
-    top: 1px;
-  }
-  .rate-service a.btn.btn-red {
-    background: #fe0000;
-    border-radius: 50px;
-    color: white;
-    font-size: 12px;
-    padding-bottom: 4px;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .thanks {
-    padding-top: 50px;
-  }
-  .thanks h1 {
-    color: #ffffff;
-    font-size: 16px;
-    text-align: center;
-    padding-top: 40px;
-  }
+/* skin */
+.simulator3 {
+  background-image: url(../img/chip.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 820px;
+  position: relative;
+  background-size: 100%;
+  top: 50px;
+}
+.column-width-ver {
+  width: 560px;
+}
+.bounds {
+  margin: 0 auto;
+}
+.simulator3 .mobilesite {
+  position: absolute;
+  top: 114px;
+  left: 41px;
+  height: 568px;
+  z-index: 5;
+  visibility: hidden;
+}
+.mobilesite {
+  position: absolute;
+  top: 128px;
+  left: 105px;
+  z-index: 5;
+  visibility: hidden;
+  width: 320px;
+}
+.relative {
+  position: relative;
+}
+.mobilesite,
+.mobilesite-hor {
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+.mobilesite {
+  height: auto;
+}
+.mobilesite.relative {
+  width: 341px;
+  top: 128px;
+  left: 105px;
+}
+/* fin-skin */
+.chipandpin {
+  background: #564c4c;
+}
+.white-panel {
+  height: 60px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 50px;
+}
+.white-panel h1 {
+  color: #fe0000;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+.rate-service {
+  height: 60px;
+  text-align: center;
+  margin-top: -20px;
+}
+.rate-service h2 {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+.rate-service input.score-input {
+  position: absolute;
+  top: -2em;
+  clip: rect(0, 0, 0, 0);
+}
+.rate-service .score {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+  border: 0;
+  font-size: 0;
+  padding-bottom: 15px;
+}
+.rate-service .score legend {
+  overflow: hidden;
+  height: 0;
+}
+.rate-service .score label {
+  font-size: 32px;
+  font-size: 2rem;
+  line-height: 32px;
+  line-height: 2rem;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-indent: 100%;
+}
+.rate-service .score label:before {
+  content: "☆";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-indent: 0;
+  line-height: 1em;
+  color: #aaa;
+  font-size: 40px;
+}
+.rate-service .score label:hover:before,
+.rate-service .score label:hover ~ label:before,
+.rate-service .score input:checked ~ label:before {
+  content: "★";
+  color: #ffbb04;
+}
+.rate-service .score label:active {
+  position: relative;
+  top: 1px;
+}
+.rate-service a.btn.btn-red {
+  background: #fe0000;
+  border-radius: 50px;
+  color: white;
+  font-size: 12px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.thanks {
+  padding-top: 50px;
+}
+.thanks h1 {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 40px;
 }
 body {
   background: #564c4c;
