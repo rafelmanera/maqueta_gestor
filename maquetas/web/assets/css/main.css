@@ -542,9 +542,14 @@
 }
 .sub-header-sub .right-box span {
   position: absolute;
-  right: 210px;
+  right: 225px;
   color: white;
   font-size: 23px;
+}
+.sub-header-sub .right-box span.a-down {
+  right: 56px!important;
+  font-size: 32px!important;
+  margin-top: -7px;
 }
 .sub-header-sub .right-box .close {
   right: 24px;
@@ -553,7 +558,7 @@
 .sub-header-sub .right-box select {
   width: 120px;
   float: right;
-  margin-right: 65px;
+  margin-right: 90px;
 }
 .sub-header-sub .line2 {
   height: 50px;
@@ -576,6 +581,9 @@
   padding-left: 15px;
   width: 40%;
   position: absolute;
+}
+.mt-n {
+  margin-top: -41px;
 }
 .transition {
   -webkit-transition: all 0s ease 0s;
