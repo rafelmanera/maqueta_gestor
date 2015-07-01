@@ -515,24 +515,42 @@
   margin-right: 10px;
   margin-left: 15px;
 }
-.sub-header-sub .line1 .right-box {
+.sub-header-sub p {
+  width: auto;
+  float: left;
+  color: white;
+  margin-right: 40px;
+  padding-top: 13px;
+}
+.sub-header-sub .brg {
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+  height: 50px;
+}
+.sub-header-sub .ml {
+  margin-left: 218px;
+}
+.sub-header-sub .ml-s {
+  margin-left: 50px;
+}
+.sub-header-sub .right-box {
   width: 50%;
   float: right;
   position: absolute;
   right: 0;
-  top: 8px;
+  padding-top: 7px;
 }
-.sub-header-sub .line1 .right-box span {
+.sub-header-sub .right-box span {
   position: absolute;
   right: 210px;
   color: white;
   font-size: 23px;
 }
-.sub-header-sub .line1 .right-box .close {
+.sub-header-sub .right-box .close {
   right: 24px;
   font-size: 28px;
 }
-.sub-header-sub .line1 .right-box select {
+.sub-header-sub .right-box select {
   width: 120px;
   float: right;
   margin-right: 65px;
@@ -617,10 +635,46 @@ body {
   font-size: 24px;
   font-weight: 500;
 }
+.data .xl {
+  font-size: 34px;
+  font-weight: 500;
+}
 .data h2 {
   font-size: 18px;
   font-weight: 200;
   margin-top: 10px;
+}
+.data thead {
+  background-color: #d7e7f4;
+}
+.data tbody td {
+  background-color: #ffffff;
+}
+.data a.thumbnail {
+  color: #3a3a3e;
+  text-align: center;
+  border-bottom: 2px solid #fe0000;
+  background-color: #f1f1f1;
+}
+.data a.thumbnail h1 {
+  font-size: 20px;
+}
+.data a.thumbnail hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #fe0000;
+}
+.data a.thumbnail p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.data a.thumbnail:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #337ab7;
+}
+.data a.thumbnail:hover hr {
+  border-top: 1px solid #337ab7;
 }
 .data .well {
   background: #ffffff;
@@ -678,6 +732,9 @@ body {
   background: #ffffff;
   margin-top: 85px;
 }
+.data .well.top a {
+  clear: none;
+}
 .data label {
   font-weight: 200;
 }
@@ -688,6 +745,289 @@ body {
   right: 0;
   display: block;
 }
+.data .box-blue-top {
+  background-color: #d7e7f4;
+  height: 40px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.data .box-blue-top h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+.data .box-blue-top h2 span {
+  font-size: 12px;
+  font-weight: 200;
+}
+.data .box-blue-top h3 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+.data .box-blue-top h3 span {
+  font-size: 12px;
+  font-weight: 200;
+}
+.data .box-blue-top a.btn.btn-gray {
+  background-color: gray;
+  border-radius: 0;
+  color: white;
+  border-bottom: 3px solid black;
+  margin-top: -10px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+}
+.data .col-md-12.slider {
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
+.data .panel.panel-default {
+  margin-top: 20px;
+  border-radius: 0px;
+}
+.data .panel.panel-default .panel-header {
+  background-color: #515154;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+.data .panel.panel-default .panel-header a {
+  float: right;
+  background-color: #333;
+  height: 45px;
+  margin-top: -10px;
+  margin-right: -10px;
+  width: 142px;
+  text-align: center;
+  line-height: 2.5;
+  color: white;
+  cursor: pointer;
+  font-weight: 200;
+}
+.data .panel.panel-default .panel-body {
+  background-color: #fff;
+}
+.data .panel.panel-default .panel-body img.img-responsive.pie {
+  margin-top: 30%;
+}
+.data .panel.panel-default .panel-body .well.gray {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  padding-top: 0px;
+  height: 120px;
+}
+.data .panel.panel-default .panel-body .well.gray .icon.col-md-1 {
+  height: 101px;
+  padding-right: 0;
+}
+.data .panel.panel-default .panel-body .well.gray .icon.col-md-1 img {
+  width: 15px;
+  margin-top: 25px;
+}
+.data .panel.panel-default .panel-body .well.gray .text {
+  text-indent: 15px;
+}
+.data .panel.panel-default .panel-body .well.gray .icon.col-md-1.idos {
+  padding-left: 0;
+}
+.data .panel.panel-default .panel-body .well.gray .icon.col-md-1.idos img {
+  width: 29px;
+  margin-top: 31px;
+}
+.data .panel.panel-default .panel-body .well.gray h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.data .panel.panel-default .panel-body .well.gray p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.data .panel.panel-default .panel-footer {
+  min-height: 50px;
+  padding-top: 15px;
+}
+.well.side h2 {
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.well.side a {
+  color: red;
+  font-size: 15px;
+  margin-right: 10px;
+  clear: none;
+}
+.well.side thead {
+  background-color: #d7e7f4;
+}
+.well.side tbody td {
+  background-color: #ffffff;
+  width: 50%;
+}
+.well.side tbody td img {
+  width: 73%;
+  margin: 0 auto;
+}
+.contracts {
+  padding: 16px;
+  width: 100%;
+  height: 605px;
+}
+.contracts .panel.panel-default {
+  margin-top: 20px;
+  border-radius: 0px;
+}
+.contracts .panel.panel-default .panel-header {
+  background-color: #515154;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}
+.contracts .panel.panel-default .panel-header a {
+  float: right;
+  background-color: #333;
+  height: 45px;
+  margin-top: -10px;
+  margin-right: -10px;
+  width: 142px;
+  text-align: center;
+  line-height: 2.5;
+  color: white;
+  cursor: pointer;
+  font-weight: 200;
+}
+.contracts .panel.panel-default .panel-body {
+  background-color: #d7e7f4;
+  height: 300px;
+}
+.contracts .panel.panel-default .panel-body .card {
+  background: #ffffff;
+  padding: 0;
+  margin-right: 10px;
+}
+.contracts .panel.panel-default .panel-body .card .card-header {
+  background-color: red;
+  width: 100%;
+  height: 30px;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 200;
+}
+.contracts .panel.panel-default .panel-body .card .card-body {
+  text-align: center;
+  padding: 28px 5px;
+  height: 155px;
+  border-bottom: 2px solid;
+}
+.contracts .panel.panel-default .panel-body .card .card-body input {
+  width: 80%;
+}
+.contracts .panel.panel-default .panel-body .card .card-body img {
+  margin: 0 auto;
+}
+.contracts .panel.panel-default .panel-footer {
+  min-height: 50px;
+  padding-top: 15px;
+}
+.cash-monitor {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+.cash-monitor .col-md-4.monitor {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 120px;
+  bottom: -323px;
+  padding-top: 20px;
+  -webkit-box-shadow: 0px -1px 10px 4px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px -1px 10px 4px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px -1px 10px 4px rgba(0, 0, 0, 0.07);
+}
+.cash-monitor .col-md-4.monitor .clearfix {
+  margin-bottom: 10px;
+}
+.cash-monitor .col-md-4.monitor input {
+  width: 80%;
+}
+.cash-monitor .col-md-4.monitor .btn-cancel {
+  border: 1px solid #515154;
+  background: #515154;
+  border-radius: 0px;
+  color: white;
+}
+.cash-monitor .col-md-4.monitor .btn-danger {
+  border: 1px solid #fe0000;
+  background: #fe0000;
+  border-radius: 0px;
+}
+.footer {
+  background-color: #515154;
+  height: 80px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 30px;
+}
 .op {
   opacity: 0.1;
 }
+/* carousel */
+.media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left {
+  left: 0px;
+  background-image: none;
+  height: 37px;
+  width: 40px;
+  margin-top: 30px;
+  font-size: 65px;
+  color: gray;
+  text-shadow: none;
+}
+/* Next button  */
+.media-carousel .carousel-control.right {
+  right: 0px !important;
+  background-image: none;
+  height: 37px;
+  width: 40px;
+  margin-top: 30px;
+  font-size: 65px;
+  color: gray;
+  text-shadow: none;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active {
+  background: #333333;
+}
+.media-carousel img {
+  width: 250px;
+  height: 100px;
+}
+/* End carousel */

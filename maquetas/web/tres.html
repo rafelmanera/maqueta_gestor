@@ -78,13 +78,13 @@
     <div class="sub-header">
       <h1>TRANSACTIONAL PORTAL</h1>
       <div class="right-sub">
-        <a class="btn op"><i class="fa fa-calendar fa-2x"></i></a>
+        <a class="btn"><i class="fa fa-calendar fa-2x"></i></a>
         <a class="btn btn-default"><i class="fa fa-users fa-2x"></i> 3</a>
-        <a class="btn btn-default clock op"><i class="fa fa-clock-o fa-2x"></i> 00:00:00</a>
-        <a class="btn btn-default op"><i class="fa fa-user fa-2x"></i></a>
-        <a class="btn btn-default op"><i class="fa fa-play fa-2x"></i></a>
-        <a class="btn btn-warning op"><i class="fa fa-share fa-2x"></i></a>
-        <a class="btn btn-success op"><i class="fa fa-backward fa-2x"></i></a>
+        <a class="btn btn-default clock"><i class="fa fa-clock-o fa-2x"></i> 00:00:00</a>
+        <a class="btn btn-default"><i class="fa fa-user fa-2x"></i></a>
+        <a class="btn btn-default"><i class="fa fa-play fa-2x"></i></a>
+        <a class="btn btn-warning"><i class="fa fa-share fa-2x"></i></a>
+        <a class="btn btn-success"><i class="fa fa-backward fa-2x"></i></a>
         <a class="btn btn-off"><i class="fa fa-power-off fa-2x"></i></a>
       </div>
     </div>
@@ -123,7 +123,7 @@
             <option>4</option>
             <option>5</option>
           </select>
-          <span class="close op">
+          <span class="close">
             <i class="fa fa-times"></i>
           </span>
         </div>
@@ -172,92 +172,205 @@
         </div>
         <div class="col-md-9">
           <ul class="nav nav-tabs">
+            <li role="presentation"><a href="#">Holding List</a></li>
             <li role="presentation"><a href="#">Deposits</a></li>
             <li role="presentation"><a href="#">Payments</a></li>
+            <li role="presentation" class="active"><a href="#">Withdrawals</a></li>
+            <li role="presentation"><a href="#">Transfers</a></li>
             <li role="presentation"><a href="#">Cashing</a></li>
-            <li role="presentation"><a href="#">Monetary Instruments</a></li>
-            <li role="presentation" class="active"><a href="#">Advanced Search</a></li>
-            <li role="presentation"><a href="#">News</a></li>
+            <li role="presentation"><a href="#">Money Instruments</a></li>
           </ul>
         </div>
       </div>
       <div class="data">
-        <div class="col-md-3">
-          <div class="well top">
-            <h2>BROADCASTING <span class="pull-right"><i class="fa fa-repeat"></i></span><a class="pull-right">All</a></h2>
-            <hr>
-            <p class="top-date">05/04/2012 New:1 Total:23</p>
-            <hr>
-            <div class="box">
-              <p class="left">05/04/2012</p>
-              <p class="left">Priority</p>
-              <p class="left"><img src="assets/img/icons/bullet-01.svg" class="img-responsive"></p>
-              <p>On 08/24 branches will close at 13:00</p>
+        <div class="col-md-12 slider">
+          <div class="carousel slide media-carousel" id="media">
+            <div class="carousel-inner">
+              <div class="item  active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>MORTGAGE</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CREDIT CARD</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>MORTGAGE</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CREDIT CARD</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CHECKING</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>MORTGAGE</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="thumbnail" href="#">
+                        <h1>CREDIT CARD</h1>
+                        <hr>
+                        <p>1391820918</p>
+                        <p>$ 3.699</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="box">
-              <p class="left">05/04/2012</p>
-              <p class="left">Priority</p>
-              <p class="left"><img src="assets/img/icons/bullet-red-01.svg" class="img-responsive"></p>
-              <div class="clearfix"></div>
-              <p>Columbia Park branch is closed due to power failure.</p>
-            </div>
-          </div>
-          <div class="well">
-          <h2>CASH BALANCE<a class="pull-right">Details</a></h2>
-          <div class="box">
-            <p class="cash">25.000 €</p>
-            </div>
-          </div>
-          <div class="well">
-          <h2>LATEST HOW TO'S</h2>
-          <a class="doc"><i class="fa fa-file-text-o"></i> Trans portal basice guide.pdf <span>(27kb)</span></a>
-          <a class="doc"><i class="fa fa-file-text-o"></i> ID%A rules.pdf <span>(257kb)</span></a>
-          <a class="doc"><i class="fa fa-file-text-o"></i> How to swipe&pin.pdf <span>(490kb)</span></a>
-          <a class="doc"><i class="fa fa-file-text-o"></i> Scan Later guide.pdf <span>(54kb)</span></a>
+            <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+            <a data-slide="next" href="#media" class="right carousel-control">›</a>
           </div>
         </div>
-        <div class="col-md-9">
-          <h1>Advanced Search</h1>
-          <h2>Custom Search</h2>
-          <div class="well">
-            <div class="col-md-12"><h2>Please note, the fields marked with an (.) are optional.</h2></div>
-            <form>
-            <div class="form-group col-md-6">
-              <label for="exampleInputEmail1">Search by</label>
-              <select class="form-control">
-                <option>NAME</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
+      </div>
+      <div class="contracts">
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-header">
+              <i class="fa fa-sign-out"></i> FROM
             </div>
-            <div class="form-group col-md-6">
-              <label for="">Customer Type</label>
-              <input type="text" class="form-control" id="" placeholder="">
+            <div class="panel-body">
+              <div class="card col-md-4">
+                <div class="card-header">
+                  CHECKING
+                </div>
+                <div class="card-body">
+                  <p>12312312313</p>
+                  <p>$ 8.000</p>
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <label for="exampleInputName2">$</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div class="form-group col-md-6">
-              <label for="">(.)First name</label>
-              <input type="text" class="form-control" id="" placeholder="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-header">
+              <i class="fa fa-sign-out"></i> TO
+              <a>Other Contracts</a>
             </div>
-            <div class="form-group col-md-6">
-              <label for="">Last name</label>
-              <input type="text" class="form-control" id="" placeholder="">
+            <div class="panel-body">
+              <div class="card col-md-4">
+                <div class="card-header">
+                  CHECKING
+                </div>
+                <div class="card-body">
+                  <img src="assets/img/check.jpg" class="img-responsive">
+                </div>
+              </div>
+              <div class="card col-md-4">
+                <div class="card-header">
+                  CASH
+                </div>
+                <div class="card-body">
+                  <img src="assets/img/cash.jpg" class="img-responsive">
+                </div>
+              </div>
             </div>
-            <div class="form-group col-md-6">
-              <label for="exampleInputEmail1">Search type</label>
-              <select class="form-control">
-                <option>INCLUSIVE</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-            <div class="clearfix"></div>
-            <hr>
-            <button type="submit" class="btn btn-danger">GO</button>
-          </form>
+          </div>
+        </div>
+      </div>
+      <div class="cash-monitor">
+        CASH MONITOR: $ 99.999.999,99
+        <div class="col-md-4 monitor">
+          <div class="col-md-3">Total<br> $ 3.00</div>
+          <div class="col-md-6">
+            <form class="form-inline">
+              <div class="form-group">
+                <label for="exampleInputName2">$</label>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-3 text-right">Total<br> $ 3.00</div>
+          <div class="clearfix"></div>
+          <div class="col-md-6">
+            <a class="btn btn-cancel btn-block">Cancel</a>
+          </div>
+          <div class="col-md-6">
+            <a class="btn btn-danger btn-block">Accept</a>
           </div>
         </div>
       </div>

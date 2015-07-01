@@ -1,3 +1,57 @@
 @import "navigation.less";
 @import "variables.less";
 @import "sections.less";
+
+/* carousel */
+.media-carousel
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left {
+  left: 0px;
+  background-image: none;
+  height: 37px;
+  width: 40px;
+  margin-top: 30px;
+  font-size: 65px;
+  color: gray;
+  text-shadow: none;
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: 0px !important;
+  background-image: none;
+  height: 37px;
+  width: 40px;
+  margin-top: 30px;
+  font-size: 65px;
+  color: gray;
+  text-shadow: none;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */

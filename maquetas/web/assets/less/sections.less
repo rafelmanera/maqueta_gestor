@@ -55,10 +55,53 @@ body {
     font-size: 24px;
     font-weight: 500;
   }
+
+  .xl {
+    font-size: 34px;
+    font-weight: 500;
+  }
+
   h2 {
     font-size: 18px;
     font-weight: 200;
     margin-top: 10px;
+  }
+  thead {
+    background-color: #d7e7f4;
+  }
+  tbody {
+    td {
+      background-color: @white;
+    }
+  }
+  a.thumbnail {
+    color: #3a3a3e;
+    text-align: center;
+    border-bottom: 2px solid @red;
+    background-color: #f1f1f1;
+
+    h1 {
+      font-size: 20px;
+    }
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border: 0;
+      border-top: 1px solid @red;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+    }
+
+    &:hover {
+      text-decoration:none;
+      border-bottom: 2px solid #337ab7;
+      hr {
+        border-top: 1px solid #337ab7;
+      }
+    }
   }
   .well {
     background: @white;
@@ -122,6 +165,10 @@ body {
   .well.top {
     background: @white;
     margin-top: 85px;
+
+    a {
+      clear: none;
+    }
   }
 
   label {
@@ -134,6 +181,264 @@ body {
     right: 0;
     display: block;
   }
+
+  .box-blue-top {
+    background-color: #d7e7f4;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+
+    h2 {
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 3px;
+      span {
+        font-size: 12px;
+        font-weight: 200;
+      }
+    }
+
+    h3 {
+      font-size: 13px;
+      font-weight: 500;
+      margin-top: 3px;
+      span {
+        font-size: 12px;
+        font-weight: 200;
+      }
+    }
+    a.btn.btn-gray {
+      background-color: gray;
+      border-radius: 0;
+      color: white;
+      border-bottom: 3px solid black;
+      margin-top: -10px;
+      height: 40px;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .col-md-12.slider{
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .panel.panel-default {
+    margin-top:20px;
+    border-radius:0px;
+
+    .panel-header {
+      background-color: #515154;
+      padding: 10px;
+      color: white;
+      font-size: 18px;
+      font-weight: 200;
+       a {
+        float: right;
+        background-color: #333;
+        height: 45px;
+        margin-top: -10px;
+        margin-right: -10px;
+        width: 142px;
+        text-align: center;
+        line-height: 2.5;
+        color:white;
+        cursor:pointer;
+        font-weight: 200;
+       }
+    }
+    .panel-body {
+      background-color: #fff;
+      img.img-responsive.pie {
+        margin-top: 30%;
+      }
+      .well.gray {
+        background-color: #f1f1f1;
+        border: 1px solid #ddd;
+        box-shadow: none;
+        padding-top: 0px;
+        height: 120px;
+
+        .icon.col-md-1 {
+          height: 101px;
+          padding-right: 0;
+          img {
+            width: 15px;
+            margin-top: 25px;
+          }
+        }
+        .text {
+          text-indent: 15px;
+        }
+
+        .icon.col-md-1.idos {
+          padding-left: 0;
+
+          img {
+            width: 29px;
+            margin-top: 31px;
+          }
+        }
+        h1 {
+          font-size:14px;
+          font-weight: 400;
+        }
+        p {
+          font-size:13px;
+          font-weight: 200;
+        } 
+      }
+    }
+    .panel-footer {
+      min-height: 50px;
+      padding-top: 15px;
+    }
+  }
+}
+
+.well.side {
+  h2 {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  a {
+    color: red;
+    font-size: 15px;
+    margin-right: 10px;
+    clear: none;
+  }
+  thead {
+    background-color: #d7e7f4;
+  }
+  tbody {
+    td {
+      background-color: @white;
+      width: 50%;
+
+      img {
+        width: 73%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.contracts {
+  padding: 16px;
+  width: 100%;
+  height: 605px;
+
+  .panel.panel-default {
+    margin-top:20px;
+    border-radius:0px;
+
+    .panel-header {
+      background-color: #515154;
+      padding: 10px;
+      color: white;
+      font-size: 18px;
+      font-weight: 200;
+       a {
+        float: right;
+        background-color: #333;
+        height: 45px;
+        margin-top: -10px;
+        margin-right: -10px;
+        width: 142px;
+        text-align: center;
+        line-height: 2.5;
+        color:white;
+        cursor:pointer;
+        font-weight: 200;
+       }
+    }
+    .panel-body {
+      background-color: #d7e7f4;
+      height: 300px;
+      .card {
+        background: @white;
+        padding: 0;
+        margin-right: 10px;
+        .card-header {
+          background-color: red;
+          width: 100%;
+          height: 30px;
+          color: white;
+          padding: 2px;
+          text-align: center;
+          font-size: 18px;
+          font-weight: 200;
+        }
+        .card-body {
+          text-align: center;
+          padding: 28px 5px;
+          height: 155px;
+          border-bottom: 2px solid;
+
+          input {
+            width: 80%;
+          }
+
+          img {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .panel-footer {
+      min-height: 50px;
+      padding-top: 15px;
+    }
+  }
+}
+.cash-monitor {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+
+  .col-md-4.monitor {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    height: 120px;
+    bottom: -323px;
+    padding-top: 20px;
+    -webkit-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.07);
+    -moz-box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.07);
+    box-shadow: 0px -1px 10px 4px rgba(0,0,0,0.07);
+    .clearfix {
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 80%;
+    }
+
+    .btn-cancel {
+      border: 1px solid #515154;
+      background: #515154;
+      border-radius:0px;
+      color:white;
+    }
+
+    .btn-danger {
+      border: 1px solid @red;
+      background: @red;
+      border-radius:0px;
+    }
+  }
+}
+.footer {
+  background-color: #515154;
+  height: 80px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .op {
