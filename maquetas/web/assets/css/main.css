@@ -540,6 +540,10 @@
   right: 0;
   padding-top: 7px;
 }
+.sub-header-sub .right-box span.semaforo {
+  width: 69px;
+  margin-right: 40px;
+}
 .sub-header-sub .right-box span {
   position: absolute;
   right: 225px;
@@ -611,16 +615,16 @@ body {
   border-bottom: 1px solid #b1b1b1;
 }
 .row.content .hero .toggle.btn.btn-sm.ios.btn-default {
-  width: 66px;
-  height: 34px;
-  margin-top: -12px;
-  margin-left: 20px;
+  width: 130px!important;
+  height: 30px!important;
+  border-radius: 50px;
+  margin-top: -55px;
 }
 .row.content .hero .toggle.btn.btn-default.off {
-  width: 66px;
-  height: 34px;
-  margin-top: -12px;
-  margin-left: 20px;
+  width: 130px!important;
+  height: 30px!important;
+  border-radius: 50px;
+  margin-top: -55px;
 }
 .row.content .hero .nav-tabs > li > a {
   margin-right: 2px;
@@ -638,6 +642,20 @@ body {
   background-color: #f1f2f2;
   border-bottom: 1px solid #f1f2f2;
   color: #fe0000;
+}
+.row.content .hero span.service {
+  width: 130px;
+  float: left;
+  margin-top: -35px;
+}
+.row.content .hero span.service img {
+  width: 25px;
+  float: left;
+  margin-right: 12px;
+}
+.row.content .hero span.service p {
+  line-height: 37px;
+  margin-left: 14px;
 }
 .data h1 {
   font-size: 24px;
@@ -988,6 +1006,18 @@ body {
   font-weight: 200;
   text-align: center;
   padding-top: 30px;
+}
+.footer span.badge {
+  /* margin-top: -39px; */
+
+  margin-left: -18px;
+  z-index: 99;
+  position: absolute;
+  background-color: red;
+}
+.footer i.fa.fa-money.fa-2x {
+  margin-right: 15px;
+  line-height: 39px;
 }
 .op {
   opacity: 0.1;
