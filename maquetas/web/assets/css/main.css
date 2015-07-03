@@ -462,8 +462,8 @@
 }
 .sub-header h2 {
   color: white;
-  font-weight: 200;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   margin-top: 20px;
   padding-left: 350px;
   position: absolute;
@@ -497,7 +497,7 @@
 .sub-header .right-sub a.btn i {
   color: #ffffff;
 }
-.sub-header .right-sub .btn.btn-default.clock {
+.sub-header .right-sub .btn.btn-dark.clock {
   width: 120px;
 }
 .sub-header .right-sub .btn img {
@@ -538,7 +538,6 @@
   z-index: 1003;
 }
 .sub-header-sub .line1 {
-  border-bottom: 1px solid white;
   height: 50px;
 }
 .sub-header-sub .line1 .line {
@@ -632,6 +631,12 @@
 .sub-header-sub .right-box .btn-default img:last-child {
   width: 25px;
   margin-right: 0px;
+}
+.sub-header-sub .line {
+  width: 98%;
+  background-color: white;
+  margin: 0 auto;
+  height: 1px;
 }
 .sub-header-sub .line2 {
   height: 50px;
@@ -1113,6 +1118,9 @@ body {
 .op {
   opacity: 0.1;
 }
+.mr {
+  margin-right: 50px;
+}
 /* carousel */
 .media-carousel {
   margin-bottom: 0;
@@ -1160,7 +1168,14 @@ body {
   height: 100px;
 }
 /* End carousel */
-.btn-default {
+.btn-dark {
+  color: #fff;
+  background-color: #515154;
+  border-color: #515154;
+  border-radius: 50px;
+  width: 60px;
+}
+.btn-default.sh {
   background-repeat: repeat-x;
   background-image: -khtml-gradient(linear, left top, left bottom, from(#f1f1f1), to(#cccccc));
   background-image: -moz-linear-gradient(top, #f1f1f1, #cccccc);
