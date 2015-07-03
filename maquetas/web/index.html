@@ -119,10 +119,10 @@
         <a class="btn btn-default"><i class="fa fa-users fa-2x"></i> 3</a>
         <a class="btn btn-default clock op"><i class="fa fa-clock-o fa-2x"></i> 00:00:00</a>
         <a class="btn btn-default op"><i class="fa fa-user fa-2x"></i></a>
-        <a class="btn btn-default op"><i class="fa fa-play fa-2x"></i></a>
+        <a class="btn btn-default op"><i class="fa fa-pause fa-2x"></i></a>
         <a class="btn btn-warning op"><i class="fa fa-share fa-2x"></i></a>
         <a class="btn btn-success op"><i class="fa fa-backward fa-2x"></i></a>
-        <a class="btn btn-off"><i class="fa fa-power-off fa-2x"></i></a>
+        <a href="uno.html" class="btn btn-off"><i class="fa fa-power-off fa-2x"></i></a>
       </div>
     </div>
     <div class="sub-header-sub">
@@ -278,9 +278,12 @@
                 <option>5</option>
               </select>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-6" style="  padding-bottom: 5px;">
               <label for="">Customer Type</label>
-              <input type="text" class="form-control" id="" placeholder="">
+              <div class="clearfix"></div>
+              <i class="fa fa-user" style="font-size: 18px; margin-right:5px;"></i>  Individual
+              <input type="checkbox" data-toggle="toggle" data-size="small" data-style="ios" data-offstyle="danger" data-onstyle="default" style="margin-left:10px; margin-right:10px;">
+              <span style="font-size: 18px; margin-right:5px;"><i class="fa fa-building-o"></i></span> Business/Non-Business Entity
             </div>
             <div class="form-group col-md-6">
               <label for="">(.)First name</label>
@@ -290,6 +293,7 @@
               <label for="">Last name</label>
               <input type="text" class="form-control" id="" placeholder="">
             </div>
+            <div class="clearfix"></div>
             <div class="form-group col-md-6">
               <label for="exampleInputEmail1">Search type</label>
               <select class="form-control">
