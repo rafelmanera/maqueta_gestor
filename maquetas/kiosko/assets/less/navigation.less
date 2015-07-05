@@ -1,0 +1,220 @@
+.navbar.navbar-default {
+  background:@red;
+  .navbar-header {
+    h1 {
+      font-size:22px;
+      width: 100%;
+      position: absolute;
+      margin-top: 12px;
+      color:white;
+      font-weight: 200;
+      left: 15px;
+    }
+  }
+  .navbar-toggle {
+    border-color: transparent;
+    .icon-bar {
+      background-color: @white;
+      border-radius:0;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+    &:focus {
+      background-color: transparent;
+    }
+  }
+  a.notifications {
+    width: 30px;
+    height: 23px;
+    padding: 1px 7px 0px;
+    font-size: 12px;
+    position: absolute;
+    top: 17px;
+    right: 55px;
+    background: url(../img/bubble.png) no-repeat;
+    background-size: 21px;
+    color: @red;
+
+    &:hover{
+      text-decoration:none;
+      cursor:pointer;
+    }
+  }
+  a.back {
+    width: 30px;
+    height: 23px;
+    padding: 1px 7px 0px;
+    font-size: 12px;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    background: url(../img/volver.png) no-repeat;
+    background-size: 21px;
+    color: @red;
+
+    &:hover{
+      text-decoration:none;
+      cursor:pointer;
+    }
+  }
+
+  .btns {
+    height: 30px;
+    width: 50%;
+    position: absolute;
+    top: 15px;
+    margin: 0 auto;
+    left: 56px;
+
+    .btn-group {
+      .btn.btn-default.btn-xs {
+        border: 1px solid white;
+      }
+    }
+
+    .btn-group>.btn-group:first-child:not(:last-child)>.btn:last-child, .btn-group>.btn-group:first-child:not(:last-child)>.dropdown-toggle {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .btn-group>.btn-group:last-child:not(:first-child)>.btn:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    .btn-default {
+      border-color:@red;
+      color: @red;
+    }
+
+    .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+      color: @white;
+      background-color: @red;
+      border-color: @white;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: @white;
+        text-transform:uppercase;
+      }
+    }
+    .salir {
+      .fa-power-off {
+        color: @red;
+      }
+    }
+  }
+  .navbar-brand {
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 160px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      margin-top: -5px;
+    }
+  }
+}
+
+.kiosk {
+  .navbar-brand.ki {
+    right: 10px!important;
+    left: inherit;
+    position: absolute;
+    width: 160px;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      margin-top: -5px;
+    }
+  }
+}
+
+.nav-sidebar {
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 50%;
+}
+.nav-sidebar a {
+    color: @dark-gray;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a {
+    cursor: default;
+    background-color: @red;
+    color: #fff;
+}
+.nav-sidebar .active a:hover {
+    background-color: @red;
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+
+.btn-group.menu {
+  position: absolute;
+  right: 280px;
+  top: 120px;
+}
+
+
+.footer {
+  background-color: @white;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  padding-left: 14px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+  a.btn.btn-help {
+    border: 1px solid #515154;
+    background: url(../img/f2.png) no-repeat #515154;
+    background-size: 80px;
+    background-position: -25px -4px;
+    color: white;
+    width: 100px;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  a.btn.btn-language {
+    border: 1px solid #515154;
+    background: url(../img/f1.png) no-repeat #515154;
+    background-size: 55px;
+    background-position: -10px -6px;
+    color: white;
+    width: 110px;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  span.ad {
+    width: 190px;
+    height: 20px;
+    position: absolute;
+    bottom: 19px;
+    right: 0;
+  }
+}

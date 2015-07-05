@@ -1,0 +1,313 @@
+/* skin */
+
+.simulator3 {
+  background-image: url(../img/kiosk.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 491px;
+  position: relative;
+  background-size: 100%;
+  top: 120px;
+}
+.column-width-ver {
+  width: 620px;
+}
+.bounds {
+  margin: 0 auto;
+}
+.simulator3 .mobilesite {
+  position: absolute;
+  top: 114px;
+  left: 41px;
+  z-index: 5;
+  visibility: hidden;
+}
+.mobilesite {
+  position: absolute;
+  top: 128px;
+  left: 105px;
+  z-index: 5;
+  visibility: hidden;
+  width: 320px;
+}
+.relative {
+  position: relative;
+}
+.mobilesite, .mobilesite-hor {
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+.mobilesite {
+  height: auto;
+}
+
+.mobilesite.relative {
+  width: 459px;
+  top: 29px;
+  left: 28px;
+}
+/* fin-skin */
+
+
+.white-panel {
+  height: 60px;
+  text-align: center;
+  background: @white;
+  margin-top: 50px;
+  h1 {
+    color:@red;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 30px;
+    border-bottom: 1px solid @soft-gray;
+    padding-bottom: 10px;
+
+    span {
+      color:@black;
+    }
+  }
+  .section-buttons {
+    width: 87%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    a.btn.btn-xl {
+      height: 80px;
+      width: 197px;
+      color: @white;
+      font-size: 22px;
+      padding-top: 20px;
+      text-align: left;
+      background: url(../img/right.png) no-repeat @red;
+      background-size: 30px;
+      background-position: 95% 42%;
+    }
+  }
+
+  .section-buttons.mt {
+    margin-top:50px;
+    a.btn.btn-md {
+      height: 50px;
+      width: 100px;
+      color: @white;
+      font-size: 22px;
+      padding-top: 10px;
+      text-align: left;
+      background: url(../img/right.png) no-repeat @red;
+      background-size: 30px;
+      background-position: 88% 42%;
+    }
+    .form-group {
+      margin-bottom: 15px;
+      width: 40%;
+      float: left;
+      margin-top: -24px;
+      margin-right: 10px;
+
+      label {
+        font-weight: 200;
+      }
+      input {
+        height: 50px;
+        background-color: #f1f1f1;
+        border: 1px solid #f1f1f1;
+      }
+    }
+  }
+}
+
+.white-panel.confirm {
+  h1 {
+    color:@red;
+    font-size: 21px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 30px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: -15px;
+  }
+  h1.case {
+    color:@red;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: -15px;
+  }
+  h2 {
+    color:@red;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-bottom: 10px;
+
+    span {
+      color:@black;
+    }
+  }
+
+  h3 {
+    color:@soft-gray;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 0;
+    margin-left: 30px;
+    border-bottom: 1px solid @soft-gray;
+    padding-bottom: 10px;
+    text-indent: 22px;
+
+    span {
+      img {
+        width: 18px;
+        margin-left: 5px;
+      }
+    }
+  }
+  a.btn.btn-md {
+    height: 40px;
+    width: 100px;
+    color: @white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: left;
+    background: url(../img/right.png) no-repeat @red;
+    background-size: 23px;
+    background-position: 93% 42%;
+    position: absolute;
+    top: 88px;
+    right: 10px;
+  }
+  a.btn.btn-md-gray {
+    height: 40px;
+    width: 100px;
+    padding-top: 8px;
+    background: url(../img/voice.png) no-repeat @soft-gray;
+    background-size: 36px;
+    background-position: 50% 41%;
+    position: absolute;
+    top: 140px;
+    right: 10px;
+  }
+
+  .section-buttons {
+    width: 87%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    a.btn.btn-xl {
+      height: 80px;
+      width: 197px;
+      color: @white;
+      font-size: 22px;
+      padding-top: 8px;
+      text-align: left;
+      background: url(../img/right.png) no-repeat @red;
+      background-size: 30px;
+      background-position: 95% 42%;
+    }
+  }
+}
+
+.white-panel.counter {
+  h1 {
+    color:@red;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: -15px;
+  }
+  h2 {
+    color:@red;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 0;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    border-bottom: 1px solid @soft-gray;
+
+  }
+
+  h3 {
+    color:@soft-gray;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 0;
+    margin-left: 30px;
+    border-bottom: 1px solid @soft-gray;
+    padding-bottom: 10px;
+    text-indent: 22px;
+
+    span {
+      img {
+        width: 18px;
+        margin-left: 5px;
+      }
+    }
+  }
+  a.btn.btn-md {
+    height: 40px;
+    width: 100px;
+    color: @white;
+    font-size: 15px;
+    padding-top: 8px;
+    text-align: left;
+    background: url(../img/right.png) no-repeat @red;
+    background-size: 23px;
+    background-position: 93% 42%;
+    position: absolute;
+    top: 88px;
+    right: 10px;
+  }
+  a.btn.btn-md-gray-back {
+    height: 40px;
+    width: 108px;
+    padding-top: 8px;
+    background: url(../img/back.png) no-repeat @soft-gray;
+    background-size: 62px;
+    background-position: -35% 32%;
+    position: absolute;
+    top: 68px;
+    right: 10px;
+    font-size: 15px;
+    color:@white;
+    text-align:right;
+  }
+
+  .section-buttons {
+    width: 87%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    a.btn.btn-xl {
+      height: 80px;
+      width: 187px;
+      color: @white;
+      font-size: 22px;
+      padding-top: 8px;
+      text-align: left;
+      background: url(../img/right.png) no-repeat @red;
+      background-size: 30px;
+      background-position: 95% 42%;
+      margin-right: 10px;
+      margin-top: 14px;
+    }
+  }
+}
+
+.teclado {
+  position: absolute;
+  bottom: 0;
+  img {
+    width: 100%;
+  }
+}
