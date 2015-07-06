@@ -1141,10 +1141,10 @@ section.search.has-bottom .footer .geo-icon {
 .simulator2 {
   background-image: url(../img/iphone.png);
   background-repeat: no-repeat;
-  width: 100%;
-  height: 820px;
+  width: 80%;
+  height: 800px;
   position: relative;
-  background-size: 100%;
+  background-size: 99%;
   top: 50px;
 }
 .column-width-ver {
@@ -1155,9 +1155,9 @@ section.search.has-bottom .footer .geo-icon {
 }
 .simulator2 .mobilesite {
   position: absolute;
-  top: 114px;
-  left: 41px;
-  height: 568px;
+  top: 88px;
+  left: 31px;
+  height: 561px;
   z-index: 5;
   visibility: hidden;
 }
