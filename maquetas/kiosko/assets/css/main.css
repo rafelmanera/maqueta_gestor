@@ -263,6 +263,7 @@
   margin-left: 30px;
   border-bottom: 1px solid #b1b1b1;
   padding-bottom: 10px;
+  font-weight: 800;
 }
 .white-panel h1 span {
   color: #262626;
@@ -282,7 +283,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 95% 42%;
+  background-position: 95% 50%;
 }
 .white-panel .section-buttons img.ticket {
   width: 130px;
@@ -302,7 +303,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 88% 42%;
+  background-position: 88% 50%;
 }
 .white-panel .section-buttons.mt .form-group {
   margin-bottom: 15px;
@@ -337,6 +338,7 @@
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: -15px;
+  font-weight: 800;
 }
 .white-panel.confirm h2 {
   color: #fe0000;
@@ -345,6 +347,7 @@
   padding-top: 0;
   margin-left: 30px;
   padding-bottom: 10px;
+  font-weight: 800;
 }
 .white-panel.confirm h2 span {
   color: #262626;
@@ -372,7 +375,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 23px;
-  background-position: 93% 42%;
+  background-position: 93% 50%;
   position: absolute;
   top: 88px;
   right: 10px;
@@ -383,7 +386,7 @@
   padding-top: 8px;
   background: url(../img/voice.png) no-repeat #b1b1b1;
   background-size: 36px;
-  background-position: 50% 41%;
+  background-position: 50% 50%;
   position: absolute;
   top: 140px;
   right: 10px;
@@ -403,7 +406,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 95% 42%;
+  background-position: 95% 50%;
 }
 .white-panel.confirm-end h1 {
   color: #fe0000;
@@ -414,6 +417,7 @@
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: -15px;
+  font-weight: 800;
 }
 .white-panel.confirm-end h2 {
   color: #fe0000;
@@ -423,6 +427,7 @@
   margin-left: 30px;
   border-bottom: 1px solid #b1b1b1;
   padding-bottom: 10px;
+  font-weight: 800;
 }
 .white-panel.confirm-end .section-buttons {
   width: 87%;
@@ -439,7 +444,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 95% 42%;
+  background-position: 95% 50%;
 }
 .white-panel.counter h1 {
   color: #fe0000;
@@ -449,6 +454,7 @@
   border-bottom: 0;
   padding-bottom: 0;
   margin-bottom: -15px;
+  font-weight: 800;
 }
 .white-panel.counter h2 {
   color: #fe0000;
@@ -458,6 +464,7 @@
   padding-bottom: 10px;
   margin-left: 30px;
   border-bottom: 1px solid #b1b1b1;
+  font-weight: 800;
 }
 .white-panel.counter h3 {
   color: #b1b1b1;
@@ -482,7 +489,7 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 23px;
-  background-position: 93% 42%;
+  background-position: 93% 50%;
   position: absolute;
   top: 88px;
   right: 10px;
@@ -493,7 +500,7 @@
   padding-top: 8px;
   background: url(../img/back.png) no-repeat #b1b1b1;
   background-size: 62px;
-  background-position: -35% 32%;
+  background-position: -35% -3px;
   position: absolute;
   top: 68px;
   right: 10px;
@@ -516,12 +523,18 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 95% 42%;
+  background-position: 95% 50%;
   margin-right: 10px;
   margin-top: 14px;
 }
 .white-panel.counter .section-buttons .col-xs-6 {
-  padding-top: 11px;
+  padding-top: 0;
+  margin-top: -18px;
+}
+.white-panel.counter .section-buttons .col-xs-6 p {
+  color: #fe0000;
+  font-weight: 800;
+  font-size: 13px;
 }
 .white-panel.counter .section-buttons .col-xs-6 a.btn.btn-sm {
   height: 42px;
@@ -532,23 +545,24 @@
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 88% 42%;
+  background-position: 88% 50%;
   float: left;
   margin-top: 2px;
 }
 .white-panel.counter .section-buttons .col-xs-6.bxl {
   padding-top: 0px;
+  margin-top: 0px;
 }
 .white-panel.counter .section-buttons .col-xs-6.bxl a.btn.btn-xl {
   height: 80px;
   width: 187px;
   color: #ffffff;
   font-size: 18px;
-  padding-top: 8px;
+  padding-top: 15px;
   text-align: left;
   background: url(../img/right.png) no-repeat #fe0000;
   background-size: 30px;
-  background-position: 95% 42%;
+  background-position: 95% 50%;
   margin-right: 10px;
   margin-top: 14px!important;
 }
