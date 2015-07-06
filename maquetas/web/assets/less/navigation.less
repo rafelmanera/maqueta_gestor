@@ -24,13 +24,13 @@
 
 .navbar.navbar-default {
   background:@red;
-  min-height: 71px;
-  margin-top: 50px;
+  max-height: 50px;
+
 
   .navbar-header {
     .burguer {
-      width: 55px;
-      height: 71px;
+      width: 54px;
+      height: 49px;
       margin-top: 0px;
       position: absolute;
       left: 0;
@@ -39,7 +39,7 @@
       img {
         width: 58%;
         margin-left: 8px;
-        margin-top: 20px;
+        margin-top: 8px;
       }
     }
   }
@@ -48,11 +48,11 @@
     margin-left: 165px;
     li.dropdown {
       background: #d2010d;
-      height: 71px;
+      height: 49px;
       width: 71px;
 
       a.dropdown-toggle {
-        margin-top: 10px;
+        margin-top: 0px;
 
         .caret {
           display: inline-block;
@@ -84,7 +84,7 @@
       background: #d2010d;
 
      a.dropdown-toggle {
-         margin-top: 0px;
+         margin-top: -9px;
      }
       .sm {
         font-size: 12px;
@@ -107,7 +107,7 @@
     }
     li.chica {
       background-color: white;
-      width: 62px;
+      width: 43px;
       img {
         width: 100%;
       }
@@ -209,7 +209,7 @@
       a {
         color: @white;
         text-transform:uppercase;
-        margin-top: 10px;
+        margin-top: 0px;
       }
     }
     .salir {
@@ -225,7 +225,7 @@
 
     img {
       width: 100%;
-      margin-top: 5px;
+      margin-top: -5px;
     }
   }
 
@@ -261,7 +261,7 @@
   #custom-search-input {
     margin:0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   #custom-search-input .search-query {
@@ -509,25 +509,33 @@
 .sub-header {
   background: #3a3a3e;
   width: 100%;
-  height: 50px;
-  margin-top: -147px;
+  height: 40px;
+  margin-top: -120px;
   position: fixed;
   z-index: 1003;
 
+  .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 3px;
+  }
   h1 {
     color: white;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 12px;
     padding-left: 15px;
     width: 30%;
     position: absolute;
   }
-    h2 {
+  h2 {
     color: white;
     font-weight: 400;
     font-size: 14px;
-    margin-top: 20px;
+    margin-top: 17px;
     padding-left: 350px;
     position: absolute;
   }
@@ -537,6 +545,7 @@
     width: 60%;
     text-align: right;
     padding-right: 15px;
+    padding-top: 2px;
 
     .btn {
       margin-top: 3px;
@@ -547,25 +556,32 @@
       border:none;
       color:white;
     }
+
     .btn-default {
       color: #fff;
       background-color: @soft-gray;
       border-color: @soft-gray;
       border-radius: 50px;
       width: 60px;
+      height: 30px;
+      padding: 3px;
 
       i.fa-2x {
         margin-top: -6px;
         font-size: 1em;
       }
     }
+
     a.btn {
       i {
         color:@white;
       }
+        height: 30px;
+        padding: 3px;
     }
     .btn.btn-dark.clock {
       width: 120px;
+      height: 30px;
     }
     .btn {
      img {
@@ -578,7 +594,7 @@
       border-color: #eea236;
       border-radius: 50px;
       width: 60px;
-
+      height: 30px;
       i.fa-2x {
         margin-top: -6px;
         font-size: 1em;
@@ -590,7 +606,7 @@
       border-color: #5cb85c;
       border-radius: 50px;
       width: 60px;
-
+      height: 30px;
       i.fa-2x {
         margin-top: -6px;
         -webkit-transform: rotate(-180deg);
@@ -606,12 +622,34 @@
 .sub-header-sub {
   background: #515154;
   width: 100%;
-  height: 100px;
+  height: 85px;
   position: fixed;
-  margin-top: -97px;
+  margin-top: -80px;
   z-index: 1003;
+
+  .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 3px;
+  }
+
+  select.form-control {
+    height: 32px;
+    margin-top: 5px;
+  }
+
+  .btn-sm {
+    margin-top: -5px;
+  }
+
+  .form-group {
+    margin-top: -8px;
+  }
   .line1 {
-    height: 50px;
+    height: 40px;
 
     .line {
       width: 98%;
@@ -622,6 +660,7 @@
     h1 {
       img {
         width: 25px;
+        margin-right: 10px;
       }
     }
     form.form-inline {
@@ -641,13 +680,13 @@
     float: left;
     color: white;
     margin-right: 40px;
-    padding-top: 13px;
+    padding-top: 5px;
   }
   .brg {
     border-right:1px solid @white;
     padding-right: 10px;
     height: 75%;
-    margin-top: 5px;
+    margin-top: 7px;
   }
   .ml {
     margin-left:218px;
@@ -667,7 +706,10 @@
       margin-right: 40px;
     }
     .comment {
-      width: 30px
+      width: 25px;
+      margin-top: -5px;
+      margin-right: 5px;
+
     }
     span {
       position: absolute;
@@ -705,9 +747,12 @@
       position: absolute;
       right: 85px;
       top: 5px;
+      height: 32px;
+      margin-top: 0;
 
       img {
         width: 25px;
+        margin-top: -4px;
         margin-right: 5px;
       }
       img:last-child {
@@ -723,10 +768,11 @@
     height: 1px;
   }
   .line2 {
-    height: 50px;
+    height: 40px;
     h1 {
       img {
         width: 25px;
+        margin-right: 10px;
       }
     }
     form.form-inline {
@@ -744,8 +790,8 @@
   h1 {
     color: white;
     font-weight: 200;
-    font-size: 18px;
-    margin-top: 12px;
+    font-size: 15px;
+    margin-top: 6px;
     padding-left: 15px;
     width: 40%;
     position: absolute;
@@ -754,7 +800,7 @@
 }
 
 .mt-n {
-  margin-top: -41px;
+  margin-top: -38px;
 }
 
 span.glyphicon.glyphicon-search {
