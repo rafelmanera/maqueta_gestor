@@ -26,62 +26,52 @@
     <![endif]-->
   </head>
 
-  <body class="base kiosk">
+  <body class="base">
 
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand ki" href="#"><img src="assets/img/logoxs.jpg" class="img-responsive"></a>
+          <h1>QUEUE MANAGEMENT</h1>
+          <a class="navbar-brand" href="#"><img src="assets/img/logoxs.jpg" class="img-responsive"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#"></a></li>
-            <li><a href="#about"></a></li>
-            <li><a href="#contact"></a></li>
-          </ul>
+
+        </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-    <section class="white-panel confirm">
-      <h1>
-        Welcome Ana Hoffman
-      </h1>
-      <h2>
-        You have an appointment with us at<span> 9:30</span><br>
-        Would you like to confirm your appointment?
-      </h2>
-      <a href="confirm.html" class="btn btn-md">
-        Confirm
-      </a>
-      <h3>Click here if you want an audible alert <span><img src="assets/img/arrows.png"></span></h3>
-      <a class="btn btn-md-gray"></a>
-      <h1 class="case">
-        If other case, how can we help you?
-      </h1>
-      <div class="section-buttons">
-        <div class="clearfix"></div>
-        <a href="" class="btn btn-xl">
-          Commercial<br>Attention
-        </a>
-        <a href="" class="btn btn-xl">
-          Counter<br>Service
-        </a>
-      </div>
-    </section>
-    <div class="footer">
-      <a class="btn btn-help">
-        Help me
-      </a>
-      <a class="btn btn-language">
-        Language
-      </a>
-      <span class="ad">
-        <img src="assets/img/ad.png" class="img-responsive">
-      </span>
+    <div class="col-md-2">
+        <nav class="nav-sidebar">
+    		<ul class="nav tabs">
+          <li class=""><a href="../index.html">Mobile</a></li>
+          <li class="active"><a href="../kiosko/index_kiosko.html">Kiosk</a></li>
+          <li class=""><a href="../web/index.html">Transactional Portal</a></li>
+          <li class=""><a href="../tv/index.html">TV</a></li>
+          <li class=""><a href="../chipandpin/index_chip.html">Chip & Pin</a></li>
+    		</ul>
+    	</nav>
     </div>
-    <!--<div class="mouse-1">
-      <img src="assets/img/mouse.svg" class="img/responsive">
+
+    <div id="vert" class="bounds column-width-ver">
+      <div class="simulator3">
+       <div class="mobilesite relative" style="visibility: visible; z-index: 100;">
+         <!-- phone iframe -->
+         <iframe id="mobileframe" src="../kiosko/ccst.html" width="100%" height="405" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" allowtransparency="true"></iframe>
+         <!-- /phone iframe-->
+      </div>
+     </div><!-- /simulator-->
+    </div>
+
+    <div class="btn-group menu">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="index_kiosko.html">Customer appointment</a></li>
+        <li><a href="index_dos.html">Customer Counter Service Turn</a></li>
+        <li><a href="index_tres.html">Customer Commercial Attention Turn</a></li>
+      </ul>
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
