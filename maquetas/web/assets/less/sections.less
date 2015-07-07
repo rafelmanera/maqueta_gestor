@@ -5,11 +5,11 @@ body {
 .row.content {
   margin-right: 0;
   margin-left:0;
-  margin-top: 170px;
+  margin-top: 116px;
 
   .hero {
       background-color: white;
-      height: 82px;
+      height: 50px;
       width: 100%;
       padding-top: 40px;
       border-bottom: 1px solid #b1b1b1;
@@ -17,6 +17,10 @@ body {
     .checkbox {
       margin-top: 17px;
       margin-bottom: 0;
+    }
+
+    ul.nav.nav-tabs {
+      margin-top: -32px;
     }
 
     .nav-tabs>li>a {
@@ -44,12 +48,13 @@ body {
       float: left;
       margin-top: -35px;
       img {
-        width: 25px;
+        width: 15px;
         float: left;
         margin-right: 12px;
+        margin-top: -10px;
       }
       p {
-        line-height: 37px;
+        line-height: 7px;
         margin-left: 14px;
       }
     }
@@ -57,8 +62,18 @@ body {
 }
 
 .data {
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-top: -5px;
+  .form-group {
+    margin-bottom: 5px;
+    .form-control {
+      height: 25px;
+    }
+  }
   h1 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
   }
 
@@ -73,9 +88,10 @@ body {
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 200;
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
   }
   thead {
     background-color: #d7e7f4;
@@ -116,7 +132,8 @@ body {
   }
   .well {
     background: @white;
-
+    padding:8px;
+    margin-bottom: 5px;
     form {
       .form-group {
         font-weight: 200;
@@ -138,7 +155,7 @@ body {
     }
     a {
       color: red;
-      font-size: 15px;
+      font-size: 12px;
       margin-right:10px;
       clear:both;
       &:hover {
@@ -151,7 +168,7 @@ body {
       font-size: 12px;
       margin-right:10px;
       display: block;
-      margin-bottom:10px;
+      margin-bottom: 5px;
       &:hover {
         cursor:pointer;
       }
@@ -159,8 +176,12 @@ body {
     .box {
       border: 1px solid #f1f1f1;
       margin-bottom: 5px;
-      padding: 5px;
+      padding: 2px;
 
+      p {
+        font-size: 11px;
+        margin: 0 0 4px;
+      }
       p.left {
         width: auto;
         float: left;
@@ -173,7 +194,7 @@ body {
         }
       }
       p.cash {
-        font-size: 18px;
+        font-size: 12px;
         padding-top: 10px;
         text-indent: 10px;
       }
@@ -185,17 +206,18 @@ body {
     }
 
     hr {
-      margin-bottom:10px;
+      margin-bottom: 5px;
+      margin-top: 5px;
     }
     .top-date {
       color:#4c7b85;
-      font-size: 20px;
+      font-size: 14px;
     }
   }
 
   .well.top {
     background: @white;
-    margin-top: 85px;
+    margin-top: 63px;
 
     a {
       clear: none;
@@ -204,6 +226,7 @@ body {
 
   label {
     font-weight: 200;
+    font-size: 12px;
   }
   button.btn.btn-danger {
     margin-top:40px;
@@ -468,14 +491,21 @@ body {
   }
 }
 .footer {
+
   background-color: #515154;
-  height: 80px;
+  height: 46px;
   color: white;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 200;
   text-align: center;
-  padding-top: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
+  .bl {
+    border-left: 1px solid white;
+    height: 31px;
+  }
   span.badge {
     /* margin-top: -39px; */
     margin-left: -18px;
