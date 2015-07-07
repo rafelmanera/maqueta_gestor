@@ -148,7 +148,7 @@
 }
 .btn-group.menu {
   position: absolute;
-  right: 200px;
+  right: 180px;
   top: 120px;
 }
 .footer {
@@ -206,16 +206,17 @@
   background-image: url(../img/kiosk.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 491px;
+  height: 573px;
   position: relative;
   background-size: 100%;
-  top: 120px;
+  top: 74px;
 }
 .column-width-ver {
-  width: 620px;
+  width: 720px;
 }
 .bounds {
   margin: 0 auto;
+  margin-right: 290px;
 }
 .simulator3 .mobilesite {
   position: absolute;
@@ -244,9 +245,9 @@
   height: auto;
 }
 .mobilesite.relative {
-  width: 459px;
-  top: 29px;
-  left: 28px;
+  width: 534px;
+  top: 33px;
+  left: 32px;
 }
 /* fin-skin */
 .white-panel {
