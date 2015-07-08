@@ -1194,7 +1194,7 @@ body {
 }
 .data.tres .panel-default {
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .data.tres .panel-default .panel-heading {
   color: #333;
@@ -1206,7 +1206,7 @@ body {
 .data.tres .nav-tabs > li {
   float: left;
   margin-bottom: -1px;
-  font-size: 12px;
+  font-size: 11px;
 }
 .data.tres .tab-pane p {
   padding-top: 10px;
