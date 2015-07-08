@@ -24,13 +24,15 @@
 
 .navbar.navbar-default {
   background:@red;
-  max-height: 30px;
+  max-height: 37px;
   z-index: 1104;
+  border-radius: 0;
+  width: 100%;
 
   .navbar-header {
     .burguer {
       width: 54px;
-      height: 29px;
+      height: 36px;
       margin-top: 0px;
       position: absolute;
       left: 0;
@@ -39,7 +41,7 @@
       img {
         width: 58%;
         margin-left: 8px;
-        margin-top: -3px;
+        margin-top: 0px;
       }
     }
   }
@@ -48,12 +50,12 @@
     margin-left: 165px;
     li.dropdown {
       background: #d2010d;
-      height: 29px;
+      height: 36px;
       width: 71px;
 
       a.dropdown-toggle {
         margin-top: 0px;
-        padding-top: 5px;
+        padding-top: 9px;
 
         .caret {
           display: inline-block;
@@ -67,7 +69,7 @@
           border-left: 8px solid transparent;
           position: absolute;
           right: 14px;
-          top:10px;
+          top:14px;
         }
       }
 
@@ -79,7 +81,7 @@
   }
   .nav.navbar-nav.navbar-right {
     margin-left: 165px;
-    margin-right: -60px;
+    margin-right: -75px;
     li.dropdown {
       width: 200px;
       background: #d2010d;
@@ -108,14 +110,14 @@
         border-left: 8px solid transparent;
         position: absolute;
         right: 24px;
-        top: 16px;
+        top: 21px;
       }
     }
     li.chica {
       background-color: white;
       width: 30px;
       img {
-        width: 84%;
+        width: 104%;
       }
     }
   }
@@ -215,7 +217,7 @@
       a {
         color: #ffffff;
         text-transform: uppercase;
-        margin-top: -10px;
+        margin-top: -8px;
       }
     }
     .salir {
@@ -229,7 +231,7 @@
     position: absolute;
 
     img {
-      width: 50%;
+      width: 65%;
       margin-top: -10px;
     }
   }
@@ -274,7 +276,9 @@
       -webkit-border-radius: 3px;
       -moz-border-radius: 3px;
       border-radius: 3px;
-      height: 23px;
+      height: 25px;
+      padding: 3px;
+      margin-top:7px;
   }
 
   #custom-search-input button {
@@ -282,7 +286,7 @@
       background: none;
       /** belows styles are working good */
       padding: 2px 5px;
-      margin-top: 2px;
+      margin-top: 8px;
       position: relative;
       left: -28px;
       /* IE7-8 doesn't have border-radius, so don't indent the padding */
@@ -516,8 +520,8 @@
   background: #3a3a3e;
   width: 100%;
   height: 31px;
-  margin-top: -86px;
-  position: fixed;
+  margin-top: -20px;
+  position: absolute;
   z-index: 1103;
 
   .input-sm {
@@ -540,9 +544,9 @@
   }
   h2 {
     color: white;
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 8px;
+    font-weight: 200;
+    font-size: 11px;
+    margin-top: 11px;
     padding-left: 350px;
     position: absolute;
   }
@@ -634,8 +638,8 @@
   background: #515154;
   width: 100%;
   height: 55px;
-  position: fixed;
-  margin-top: -55px;
+  position: absolute;
+  margin-top: 11px;
   z-index: 1003;
 
   .input-sm {
@@ -650,6 +654,7 @@
   select.form-control {
     height: 20px;
     margin-top: 3px;
+    padding: 1px;
   }
 
 .btn-sm {
@@ -700,15 +705,15 @@
 
   .brg {
     border-right: 1px solid #ffffff;
-    padding-right: 10px;
-    height: 57%;
-    margin-top: 10px;
+    padding-right: 30px;
+    height: 61%;
+    margin-top: 6px;
     font-size: 11px;
     margin-left: 5px;
-    line-height: 10px;
+    line-height: 15px;
   }
   .ml {
-    margin-left:218px;
+    margin-left:147px;
   }
   .ml-s {
     margin-left:50px;
@@ -821,9 +826,10 @@
       }
     }
     .close {
-      right: 25px;
+      right: 14px;
       font-size: 28px;
-      top: 5px;
+      width: 25px;
+      margin-top: -8px;
 
       img {
         width: 25px;
@@ -865,6 +871,7 @@
     height: 25px;
     h1 {
       font-size: 12px;
+      border-right: 1px solid white;
       img {
         width: 16px;
         margin-right: 10px;
@@ -888,7 +895,7 @@
     font-size: 15px;
     margin-top: 6px;
     padding-left: 15px;
-    width: 40%;
+    width: 13%;
     position: absolute;
   }
 

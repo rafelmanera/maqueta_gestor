@@ -24,12 +24,14 @@
 }
 .navbar.navbar-default {
   background: #fe0000;
-  max-height: 30px;
+  max-height: 37px;
   z-index: 1104;
+  border-radius: 0;
+  width: 100%;
 }
 .navbar.navbar-default .navbar-header .burguer {
   width: 54px;
-  height: 29px;
+  height: 36px;
   margin-top: 0px;
   position: absolute;
   left: 0;
@@ -39,19 +41,19 @@
 .navbar.navbar-default .navbar-header .burguer img {
   width: 58%;
   margin-left: 8px;
-  margin-top: -3px;
+  margin-top: 0px;
 }
 .navbar.navbar-default .nav.navbar-nav {
   margin-left: 165px;
 }
 .navbar.navbar-default .nav.navbar-nav li.dropdown {
   background: #d2010d;
-  height: 29px;
+  height: 36px;
   width: 71px;
 }
 .navbar.navbar-default .nav.navbar-nav li.dropdown a.dropdown-toggle {
   margin-top: 0px;
-  padding-top: 5px;
+  padding-top: 9px;
 }
 .navbar.navbar-default .nav.navbar-nav li.dropdown a.dropdown-toggle .caret {
   display: inline-block;
@@ -65,7 +67,7 @@
   border-left: 8px solid transparent;
   position: absolute;
   right: 14px;
-  top: 10px;
+  top: 14px;
 }
 .navbar.navbar-default .nav.navbar-nav li.dropdown .sm {
   font-size: 12px;
@@ -73,7 +75,7 @@
 }
 .navbar.navbar-default .nav.navbar-nav.navbar-right {
   margin-left: 165px;
-  margin-right: -60px;
+  margin-right: -75px;
 }
 .navbar.navbar-default .nav.navbar-nav.navbar-right li.dropdown {
   width: 200px;
@@ -103,14 +105,14 @@
   border-left: 8px solid transparent;
   position: absolute;
   right: 24px;
-  top: 16px;
+  top: 21px;
 }
 .navbar.navbar-default .nav.navbar-nav.navbar-right li.chica {
   background-color: white;
   width: 30px;
 }
 .navbar.navbar-default .nav.navbar-nav.navbar-right li.chica img {
-  width: 84%;
+  width: 104%;
 }
 .navbar.navbar-default .navbar-form .form-group .form-control {
   background-color: #fe0000;
@@ -197,7 +199,7 @@
 .navbar.navbar-default .navbar-nav li a {
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 .navbar.navbar-default .navbar-nav .salir .fa-power-off {
   color: #fe0000;
@@ -207,7 +209,7 @@
   position: absolute;
 }
 .navbar.navbar-default .navbar-brand img {
-  width: 50%;
+  width: 65%;
   margin-top: -10px;
 }
 .navbar.navbar-default .navbar-brand.tv {
@@ -246,7 +248,9 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  height: 23px;
+  height: 25px;
+  padding: 3px;
+  margin-top: 7px;
 }
 .navbar.navbar-default #custom-search-input button {
   border: 0;
@@ -254,7 +258,7 @@
   /** belows styles are working good */
 
   padding: 2px 5px;
-  margin-top: 2px;
+  margin-top: 8px;
   position: relative;
   left: -28px;
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
@@ -453,8 +457,8 @@
   background: #3a3a3e;
   width: 100%;
   height: 31px;
-  margin-top: -86px;
-  position: fixed;
+  margin-top: -20px;
+  position: absolute;
   z-index: 1103;
 }
 .sub-header .input-sm {
@@ -476,9 +480,9 @@
 }
 .sub-header h2 {
   color: white;
-  font-weight: 400;
-  font-size: 14px;
-  margin-top: 8px;
+  font-weight: 200;
+  font-size: 11px;
+  margin-top: 11px;
   padding-left: 350px;
   position: absolute;
 }
@@ -561,8 +565,8 @@
   background: #515154;
   width: 100%;
   height: 55px;
-  position: fixed;
-  margin-top: -55px;
+  position: absolute;
+  margin-top: 11px;
   z-index: 1003;
 }
 .sub-header-sub .input-sm {
@@ -576,6 +580,7 @@
 .sub-header-sub select.form-control {
   height: 20px;
   margin-top: 3px;
+  padding: 1px;
 }
 .sub-header-sub .btn-sm {
   margin-top: -5px;
@@ -622,15 +627,15 @@
 }
 .sub-header-sub .brg {
   border-right: 1px solid #ffffff;
-  padding-right: 10px;
-  height: 57%;
-  margin-top: 10px;
+  padding-right: 30px;
+  height: 61%;
+  margin-top: 6px;
   font-size: 11px;
   margin-left: 5px;
-  line-height: 10px;
+  line-height: 15px;
 }
 .sub-header-sub .ml {
-  margin-left: 218px;
+  margin-left: 147px;
 }
 .sub-header-sub .ml-s {
   margin-left: 50px;
@@ -733,9 +738,10 @@
   margin-top: 13px;
 }
 .sub-header-sub .right-box.dos .close {
-  right: 25px;
+  right: 14px;
   font-size: 28px;
-  top: 5px;
+  width: 25px;
+  margin-top: -8px;
 }
 .sub-header-sub .right-box.dos .close img {
   width: 25px;
@@ -774,6 +780,7 @@
 }
 .sub-header-sub .line2 h1 {
   font-size: 12px;
+  border-right: 1px solid white;
 }
 .sub-header-sub .line2 h1 img {
   width: 16px;
@@ -795,7 +802,7 @@
   font-size: 15px;
   margin-top: 6px;
   padding-left: 15px;
-  width: 40%;
+  width: 13%;
   position: absolute;
 }
 .mt-n {
@@ -824,7 +831,6 @@ body {
 .row.content {
   margin-right: 0;
   margin-left: 0;
-  margin-top: 116px;
 }
 .row.content .hero {
   background-color: white;
@@ -832,6 +838,7 @@ body {
   width: 100%;
   padding-top: 40px;
   border-bottom: 1px solid #b1b1b1;
+  margin-top: 66px;
 }
 .row.content .hero .checkbox {
   margin-top: 17px;
@@ -888,6 +895,11 @@ body {
 }
 .data .form-group .form-control {
   height: 25px;
+  margin-top: 3px;
+  padding: 1px;
+}
+.data .focus {
+  background: #c4f4ff;
 }
 .data h1 {
   font-size: 14px;
@@ -902,7 +914,7 @@ body {
 }
 .data h2 {
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -916,7 +928,9 @@ body {
   color: #3a3a3e;
   text-align: center;
   border-bottom: 2px solid #fe0000;
-  background-color: #f1f1f1;
+  background: url(../img/icons/dots_dos.svg) no-repeat #f1f1f1;
+  background-size: 7%;
+  background-position: 3px 3px;
 }
 .data a.thumbnail h1 {
   font-size: 17px;
@@ -940,7 +954,7 @@ body {
 }
 .data .well {
   background: #ffffff;
-  padding: 8px;
+  padding: 6px;
   margin-bottom: 5px;
 }
 .data .well form .form-group {
@@ -1113,6 +1127,7 @@ body {
   color: white;
   cursor: pointer;
   font-weight: 200;
+  text-decoration: underline;
 }
 .data .panel.panel-default .panel-body {
   background-color: #fff;
@@ -1171,7 +1186,7 @@ body {
 }
 .data .panel.panel-default .panel-body .well.gray h1 {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 8px;
 }
 .data .panel.panel-default .panel-body .well.gray p {
@@ -1306,6 +1321,7 @@ body {
   color: white;
   cursor: pointer;
   font-weight: 200;
+  text-decoration: underline;
 }
 .contracts .panel.panel-default .panel-body {
   background-color: #d7e7f4;
@@ -1356,7 +1372,7 @@ body {
   right: 0;
   background-color: white;
   height: 120px;
-  bottom: 46px;
+  bottom: 39px;
   padding-top: 20px;
   -webkit-box-shadow: 0px -1px 10px 4px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0px -1px 10px 4px rgba(0, 0, 0, 0.07);
@@ -1414,7 +1430,6 @@ body {
   margin-right: 50px;
 }
 .navbar {
-  position: fixed;
   min-height: 30px!important;
   margin-bottom: 20px;
   border: 1px solid transparent;
